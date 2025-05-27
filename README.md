@@ -22,32 +22,34 @@ HE_project7/
    ```bash
    git clone https://github.com/jotarrobles/HE_project7.git
    cd HE_project7   #comment
-
+   ```
 2. **(Optional) Create a virtual environment**:
    ```bash
    python -m venv venv
    source venv/bin/activate    #On Windows venv\Scripts\activate
-   
+   ```
 3. **Install dependencies**:
    ```bash
     pip install -r requirements.txt
-
+   ```
 4. **Initialization**:
    Before running the app, you have to run the initialization file once.
    This will setup the keys for the Homomorphic encryption
    ```bash
    python ini.py
-
+   ```
 5. **Streamlit**:
    Run the app using streamlit
    ```bash
    streamlit run app.py
-
+   ```
    The app should open in your default web browser. If not, open a browser window and      search:
    http://localhost:8501
 
 ## Inside the app
 The first step within the app is to select a CSV file. Within this directory, the file heart_sample.csv is provided for testing.
+
+When the dataset is loaded and encrypted, you will be able to obtain statistical data from the encrypted dataset using the slide down menus.
 
 
 
